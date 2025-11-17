@@ -5,7 +5,6 @@ export type Category =
   | 'electronics'
   | 'audio'
   | 'gaming'
-  | 'workflow'
   | 'collectibles'
   | 'decor'
   | 'music'
@@ -31,7 +30,7 @@ export interface WishlistItemMetadata {
 export interface WishlistItem {
   id: string;
   name: string;
-  category: Category;
+  category: Category[];
   priceRange: PriceRange;
   description: string;
   variants: string[];

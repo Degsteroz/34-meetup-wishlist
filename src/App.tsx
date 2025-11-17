@@ -21,7 +21,7 @@ function App() {
     const items =
       category === 'all'
         ? [...wishlist]
-        : [...wishlist].filter((item) => item.category === category);
+        : [...wishlist].filter((item) => item.category.includes(category));
 
     if (sortBy === 'price') {
       return items.sort((a, b) => {

@@ -14,7 +14,6 @@ export function SortCategoryControls({ sortBy, onSortChange }: SortControlsProps
     'electronics',
     'audio',
     'gaming',
-    'workflow',
     'collectibles',
     'decor',
     'music',

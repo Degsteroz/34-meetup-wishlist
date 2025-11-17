@@ -55,7 +55,11 @@ export function WishlistItem({ item, index }: WishlistItemProps) {
         <div className={styles.content}>
           <div className={styles.header}>
             <h2 className={styles.title}>{item.name}</h2>
-            <span className={styles.category}>{item.category}</span>
+            {item.category.map((category) => (
+              <span className={styles.category} key={item.id + category}>
+                {category}
+              </span>
+            ))}
           </div>
 
           <p className={styles.description}>{item.description}</p>
