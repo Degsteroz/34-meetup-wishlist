@@ -76,6 +76,22 @@ export const wishlist: WishlistItem[] = [
     whereToBuy: ['Elgato Official Store', 'Amazon / BestBuy', 'Магазины техники для стримеров'],
   },
   {
+    id: 'c78e3675-f2ff-49a1-af50-e996bbc8cf4c',
+    name: 'Виниловые пластинки',
+    category: 'music',
+    priceRange: { min: 20, max: 150, currency: 'USD' },
+    description:
+      'SOAD, Enter Shikari, Norma Jean, Rammstein — можно дарить любую группу, которую я слушаю.',
+    variants: ['Обычное издание', 'Цветная лимитка', 'Редкое переиздание'],
+    priority: 2,
+    whereToBuy: [
+      'Магазины виниловых пластинок',
+      'Discogs',
+      'Amazon',
+      'локальные музыкальные магазины',
+    ],
+  },
+  {
     id: '9acec396-0625-44c3-b18c-ed57b44147e5',
     name: 'Студийные наушники / мониторы',
     category: 'audio',
