@@ -1,18 +1,27 @@
 import { useState, useMemo } from 'react';
+
+import type { Category } from './types';
+
 import { headerImageId, wishlist } from './data';
-import { WishlistGrid, SortControls, type SortOption } from './components';
-import styles from './App.module.css';
+import { WishlistGrid, SortControls, type SortOption, SortCategoryControls } from './components';
+
 import { getImageUrlById } from './utils/getImageUrl.ts';
+
+import styles from './App.module.css';
 
 function App() {
   const [sortBy, setSortBy] = useState<SortOption>('none');
+  const [category, setCategory] = useState<Category | 'all'>('all');
 
   const sortedItems = useMemo(() => {
-    if (sortBy === 'none') {
+    if (sortBy === 'none' && category === 'all') {
       return wishlist;
     }
 
-    const items = [...wishlist];
+    const items =
+      category === 'all'
+        ? [...wishlist]
+        : [...wishlist].filter((item) => item.category === category);
 
     if (sortBy === 'price') {
       return items.sort((a, b) => {
@@ -27,7 +36,7 @@ function App() {
     }
 
     return items;
-  }, [sortBy]);
+  }, [sortBy, category]);
 
   return (
     <div className={styles.app}>
@@ -41,6 +50,7 @@ function App() {
       </header>
       <main className={styles.main}>
         <SortControls sortBy={sortBy} onSortChange={setSortBy} />
+        <SortCategoryControls sortBy={category} onSortChange={setCategory} />
         <WishlistGrid items={sortedItems} />
       </main>
     </div>

@@ -1,5 +1,6 @@
 import type { WishlistItem as WishlistItemType } from '../../types';
 import { getImageUrl } from '../../utils/getImageUrl';
+
 import styles from './WishlistItem.module.css';
 
 interface WishlistItemProps {
