@@ -46,11 +46,18 @@ function App() {
           <p className={styles.subtitle}>Коллекция подарков, которые я хотел бы получить.</p>
           <p className={styles.subtitle}>Носит исключительно ознакомительный характер</p>
         </div>
-        <img src={getImageUrlById(headerImageId)} className={styles.image} loading="lazy" />
+        <img
+          src={getImageUrlById(headerImageId)}
+          className={styles.image}
+          loading="lazy"
+          alt="logo"
+        />
       </header>
       <main className={styles.main}>
-        <SortControls sortBy={sortBy} onSortChange={setSortBy} />
-        <SortCategoryControls sortBy={category} onSortChange={setCategory} />
+        <div className={styles.sortPanel}>
+          <SortControls sortBy={sortBy} onSortChange={setSortBy} />
+          <SortCategoryControls sortBy={category} onSortChange={setCategory} />
+        </div>
         <WishlistGrid items={sortedItems} />
       </main>
     </div>

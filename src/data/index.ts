@@ -37,8 +37,23 @@ export const wishlist: WishlistItem[] = [
     ],
   },
   {
+    id: 'cb3ce338-3ff7-4590-80f4-d33953eadae4',
+    name: 'Valve Steam Machine (новое поколение)',
+    category: ['gaming'],
+    priceRange: { min: 600, max: 1200, currency: 'USD' },
+    description:
+      'Новая версия Steam Machine — компактный игровой мини-ПК от Valve на базе SteamOS, разработанный для гостиной.',
+    variants: ['512 ГБ NVMe', '2 ТБ NVMe', 'Съёмная лицевая панель (магнитная)'],
+    priority: 2,
+    whereToBuy: [
+      'Steam Store (официальный магазин Valve)',
+      'Крупные ритейлеры ПК-железа (Amazon, Newegg)',
+      'Магазины мини-ПК и игровых консолей',
+    ],
+  },
+  {
     id: 'ff935e53-5ad6-4e05-9c9f-db78876fa659',
-    name: 'Комплект для подкастов (аудиоинтерфейс + микрофоны)',
+    name: 'Комплект для подкастов',
     category: ['audio', 'streaming'],
     priceRange: { min: 400, max: 2000, currency: 'USD' },
     description:
@@ -66,6 +81,41 @@ export const wishlist: WishlistItem[] = [
     whereToBuy: ['Microsoft Store', 'Amazon / BestBuy / GameStop', 'Местные магазины электроники'],
   },
   {
+    id: '554d4520-d6f0-46b6-871b-884c0dd05d40',
+    name: 'Современный монитор (универсальный, 24–27")',
+    category: ['workspace'],
+    priceRange: { min: 150, max: 450, currency: 'USD' },
+    description:
+      'Универсальный современный монитор 24–27" (IPS/VA панель, современный набор входов, опционально USB-C) — простой, надёжный и нейтральный по дизайну.',
+    variants: ['24" IPS 1080p, 75Hz', '25–27" 1440p, 75–120Hz', '27" 4K (если нужен высокий DPI)'],
+    priority: 1,
+    whereToBuy: [
+      'Amazon',
+      'WinWin / локальные ритейлеры электроники',
+      'официальные онлайн-магазины брендов (LG, Dell, Samsung)',
+    ],
+  },
+
+  {
+    id: '5470a157-f7d3-469c-84d5-7d1c95fdbfb0',
+    name: 'Универсальное игровое кресло',
+    category: ['workspace', 'gaming'],
+    priceRange: { min: 150, max: 500, currency: 'USD' },
+    description:
+      'Эргономичное игровое кресло без конкретного бренда, подходит для работы и игр. Поддержка спины, регулировки высоты и наклона.',
+    variants: [
+      'Базовая версия',
+      'С регулируемыми подлокотниками',
+      'Премиум с дополнительной поддержкой поясницы',
+    ],
+    priority: 1,
+    whereToBuy: [
+      'Amazon / AliExpress',
+      'Локальные магазины мебели и электроники',
+      'Официальные магазины универсальных кресел',
+    ],
+  },
+  {
     id: 'e1eced78-e803-469f-b48f-e95cf27a9d22',
     name: 'Stream Deck (Elgato) — Mini / Standard / XL',
     category: ['streaming'],
@@ -74,6 +124,40 @@ export const wishlist: WishlistItem[] = [
     variants: ['Stream Deck Mini', 'Stream Deck Standard', 'Stream Deck XL'],
     priority: 3,
     whereToBuy: ['Elgato Official Store', 'Amazon / BestBuy', 'Магазины техники для стримеров'],
+  },
+  {
+    id: '9acec396-0625-44c3-b18c-ed57b44147e5',
+    name: 'Студийные наушники / мониторы',
+    category: ['audio'],
+    priceRange: { min: 100, max: 800, currency: 'USD' },
+    description:
+      'Для подкастов, монтажа, музыки. Закрытые мониторные наушники или небольшие студийные мониторы.',
+    variants: [
+      'Audio-Technica / Sennheiser / Beyerdynamic',
+      'Закрытые мониторные',
+      'Настольные студийные мониторы',
+    ],
+    priority: 1,
+    whereToBuy: [
+      'Thomann / Sweetwater / Amazon',
+      'Магазины музыкального оборудования',
+      'Официальные сайты брендов',
+    ],
+  },
+  {
+    id: '2efbf0d9-c92c-46d1-8197-54be9204d4d1',
+    name: 'USB-микрофон',
+    category: ['audio', 'streaming'],
+    priceRange: { min: 100, max: 400, currency: 'USD' },
+    description:
+      'Хорошая альтернатива многоканальному аудиоинтерфейсу — просто подключить и писать.',
+    variants: ['Shure MV7', 'Rode NT-USB', 'Blue Yeti X'],
+    priority: 3,
+    whereToBuy: [
+      'Amazon / Sweetwater / Thomann',
+      'Магазины музыкального оборудования',
+      'Официальные сайты брендов',
+    ],
   },
   {
     id: 'c78e3675-f2ff-49a1-af50-e996bbc8cf4c',
@@ -92,38 +176,19 @@ export const wishlist: WishlistItem[] = [
     ],
   },
   {
-    id: '9acec396-0625-44c3-b18c-ed57b44147e5',
-    name: 'Студийные наушники / мониторы',
-    category: ['audio'],
-    priceRange: { min: 100, max: 800, currency: 'USD' },
+    id: '9485f9b9-012c-49d5-875a-bf0b1158bea7',
+    name: 'Винтажный японский бомбер',
+    category: ['style', 'clothing'],
+    priceRange: { min: 80, max: 350, currency: 'USD' },
     description:
-      'Для подкастов, монтажа, музыки. Закрытые мониторные наушники или небольшие студийные мониторы.',
+      'Настоящий винтажный японский бомбер, качественный материал, ретро-дизайн. Отличный элемент коллекции или повседневного образа.',
     variants: [
-      'Audio-Technica / Sennheiser / Beyerdynamic',
-      'Закрытые мониторные',
-      'Настольные студийные мониторы',
+      'Классический бомбер',
+      'С вышивкой или патчами',
+      'Премиум винтаж (лимитированная серия)',
     ],
-    priority: 2,
-    whereToBuy: [
-      'Thomann / Sweetwater / Amazon',
-      'Магазины музыкального оборудования',
-      'Официальные сайты брендов',
-    ],
-  },
-  {
-    id: '2efbf0d9-c92c-46d1-8197-54be9204d4d1',
-    name: 'USB-микрофон',
-    category: ['audio', 'streaming'],
-    priceRange: { min: 100, max: 400, currency: 'USD' },
-    description:
-      'Хорошая альтернатива многоканальному аудиоинтерфейсу — просто подключить и писать.',
-    variants: ['Shure MV7', 'Rode NT-USB', 'Blue Yeti X'],
-    priority: 2,
-    whereToBuy: [
-      'Amazon / Sweetwater / Thomann',
-      'Магазины музыкального оборудования',
-      'Официальные сайты брендов',
-    ],
+    priority: 1,
+    whereToBuy: ['Etsy / eBay', 'Винтажные магазины одежды', 'Локальные бутики'],
   },
   {
     id: '321afee6-dd6f-4edf-b2d5-5c7b868de184',
@@ -151,7 +216,7 @@ export const wishlist: WishlistItem[] = [
     description:
       'Физический картридж или цифровой ключ. Подойдёт любой качественный экшен/метроидвания.',
     variants: ['Blasphemous 2', 'Любая другая игра на усмотрение', 'Коллекционное издание'],
-    priority: 2,
+    priority: 1,
     whereToBuy: ['Nintendo eShop', 'Amazon / BestBuy', 'Местные игровые магазины'],
   },
   {
@@ -162,7 +227,7 @@ export const wishlist: WishlistItem[] = [
     description:
       'Фигурки персонажей Overwatch: Гендзи, Ханзо, Рейнхард. Массовые или коллекционные.',
     variants: ['Funko Pop', 'Nendoroid', 'Blizzard Collectible Statue'],
-    priority: 1,
+    priority: 3,
     whereToBuy: [
       'Blizzard Gear Store',
       'Amazon / eBay / локальные магазины фигурок',
@@ -176,7 +241,7 @@ export const wishlist: WishlistItem[] = [
     priceRange: { min: 25, max: 200, currency: 'USD' },
     description: 'Фигурка Genex или Kosmaj из бетона.',
     variants: ['Genex', 'Kosmaj'],
-    priority: 2,
+    priority: 1,
     whereToBuy: [
       'Местные художественные магазины',
       'Etsy / eBay',
@@ -277,6 +342,36 @@ export const wishlist: WishlistItem[] = [
     variants: ['Настольная', 'Стойка средняя', 'Профессиональная с регулировкой'],
     priority: 3,
     whereToBuy: ['Amazon / AliExpress / локальные магазины фототехники'],
+  },
+  {
+    id: 'e01ee0b8-7e69-4df5-8a88-699efd28eb6a',
+    name: 'Набор стеклянных герметичных контейнеров для кухни',
+    category: ['misc'],
+    priceRange: { min: 15, max: 60, currency: 'USD' },
+    description:
+      'Комплект стеклянных контейнеров с силиконовыми крышками — герметичные, подходят для хранения сухих продуктов и остатков.',
+    variants: [
+      'Набор 3× стеклянных банок (разный объём)',
+      'Плоские контейнеры для холодильника',
+      'Банки с мерной шкалой',
+    ],
+    priority: 1,
+    whereToBuy: ['IKEA', 'Amazon', 'локальные магазины посуды / хозяйственные магазины'],
+  },
+  {
+    id: 'eca71645-30bf-49ff-91c1-16bf234ed95e',
+    name: 'Металлический значок / брелок Overwatch',
+    category: ['collectibles'],
+    priceRange: { min: 5, max: 25, currency: 'USD' },
+    description:
+      'Металлический значок или брелок по Overwatch с матовой эмалью — аккуратный аксессуар для коллекции или одежды.',
+    variants: ['Маленький значок (pin)', 'Брелок на кольце', 'Лимитированная серия с номером'],
+    priority: 1,
+    metadata: {
+      preferredMetals: ['steel', 'nickel', 'silver'],
+      style: ['matte', 'minimal'],
+    },
+    whereToBuy: ['Blizzard Gear Store', 'Etsy (custom)', 'Amazon / eBay'],
   },
   {
     id: 'd239be3a-32fc-45ea-9450-c1f5b94ccd6f',

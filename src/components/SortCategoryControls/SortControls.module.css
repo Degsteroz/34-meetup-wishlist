@@ -1,11 +1,10 @@
 .container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 16px;
   padding: 20px;
   background: var(--sort-bg);
   border-bottom: 1px solid var(--sort-border);
-  flex-wrap: wrap;
 }
 
 .label {
@@ -26,11 +25,12 @@
   border-radius: 8px;
   background: var(--sort-bg);
   color: var(--text-primary);
-  font-size: 0.875rem;
+  font-size: 0.5rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
+  text-transform: capitalize;
 }
 
 .button:hover {

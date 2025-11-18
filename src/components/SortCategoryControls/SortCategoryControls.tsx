@@ -36,7 +36,7 @@ export function SortCategoryControls({ sortBy, onSortChange }: SortControlsProps
             onClick={() => onSortChange(category)}
             key={category}
           >
-            {category === 'all' ? 'Все' : category.toUpperCase()}
+            {category === 'all' ? 'Все' : category}
           </button>
         ))}
       </div>
