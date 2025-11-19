@@ -1,4 +1,4 @@
-import type { WishlistItem } from '../src/types';
+import type { WishlistItem } from '../types';
 
 export const headerImageId = 'a5fcad92-56f3-4a7b-a786-275a298ae9a7';
 

@@ -1,4 +1,4 @@
-import type { WishlistItem as WishlistItemType } from '../../types';
+import type { WishlistItem as WishlistItemType } from '../../../types';
 import { WishlistItem } from '../WishlistItem/WishlistItem';
 
 import { getImageUrlById } from '../../utils/getImageUrl.ts';

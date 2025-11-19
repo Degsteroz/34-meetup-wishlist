@@ -1,5 +1,5 @@
 import styles from './SortControls.module.css';
-import type { Category } from '../../types';
+import type { Category } from '../../../types';
 
 export type SortOption = Category | 'all';
 
