@@ -1,4 +1,4 @@
-import type { WishlistItem } from '../types';
+import type { WishlistItem } from '../src/types';
 
 export const headerImageId = 'a5fcad92-56f3-4a7b-a786-275a298ae9a7';
 
@@ -21,6 +21,7 @@ export const wishlist: WishlistItem[] = [
       'Amazon / BestBuy',
       'Магазины электроники в вашем регионе',
     ],
+    quantity: 1,
   },
   {
     id: 'f0b350d4-cffe-4ca0-a7de-05388934ba19',
@@ -35,6 +36,7 @@ export const wishlist: WishlistItem[] = [
       'Amazon / BestBuy',
       'Локальные магазины техники',
     ],
+    quantity: 1,
   },
   {
     id: 'cb3ce338-3ff7-4590-80f4-d33953eadae4',
@@ -50,6 +52,7 @@ export const wishlist: WishlistItem[] = [
       'Крупные ритейлеры ПК-железа (Amazon, Newegg)',
       'Магазины мини-ПК и игровых консолей',
     ],
+    quantity: 1,
   },
   {
     id: 'ff935e53-5ad6-4e05-9c9f-db78876fa659',
@@ -69,6 +72,7 @@ export const wishlist: WishlistItem[] = [
       'Магазины музыкального оборудования',
       'Официальные сайты брендов',
     ],
+    quantity: 1,
   },
   {
     id: '6a7c9cbb-e7b1-46cb-aec0-f4686a47c427',
@@ -79,6 +83,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Консоль', 'Консоль + второй контроллер', 'Консоль + Game Pass Ultimate'],
     priority: 3,
     whereToBuy: ['Microsoft Store', 'Amazon / BestBuy / GameStop', 'Местные магазины электроники'],
+    quantity: 1,
   },
   {
     id: '554d4520-d6f0-46b6-871b-884c0dd05d40',
@@ -94,6 +99,7 @@ export const wishlist: WishlistItem[] = [
       'WinWin / локальные ритейлеры электроники',
       'официальные онлайн-магазины брендов (LG, Dell, Samsung)',
     ],
+    quantity: 1,
   },
 
   {
@@ -114,6 +120,7 @@ export const wishlist: WishlistItem[] = [
       'Локальные магазины мебели и электроники',
       'Официальные магазины универсальных кресел',
     ],
+    quantity: 1,
   },
   {
     id: 'e1eced78-e803-469f-b48f-e95cf27a9d22',
@@ -124,6 +131,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Stream Deck Mini', 'Stream Deck Standard', 'Stream Deck XL'],
     priority: 3,
     whereToBuy: ['Elgato Official Store', 'Amazon / BestBuy', 'Магазины техники для стримеров'],
+    quantity: 1,
   },
   {
     id: '9acec396-0625-44c3-b18c-ed57b44147e5',
@@ -143,6 +151,7 @@ export const wishlist: WishlistItem[] = [
       'Магазины музыкального оборудования',
       'Официальные сайты брендов',
     ],
+    quantity: 1,
   },
   {
     id: '2efbf0d9-c92c-46d1-8197-54be9204d4d1',
@@ -158,6 +167,7 @@ export const wishlist: WishlistItem[] = [
       'Магазины музыкального оборудования',
       'Официальные сайты брендов',
     ],
+    quantity: 1,
   },
   {
     id: 'c78e3675-f2ff-49a1-af50-e996bbc8cf4c',
@@ -174,6 +184,7 @@ export const wishlist: WishlistItem[] = [
       'Amazon',
       'локальные музыкальные магазины',
     ],
+    quantity: 3,
   },
   {
     id: '9485f9b9-012c-49d5-875a-bf0b1158bea7',
@@ -189,6 +200,7 @@ export const wishlist: WishlistItem[] = [
     ],
     priority: 1,
     whereToBuy: ['Etsy / eBay', 'Винтажные магазины одежды', 'Локальные бутики'],
+    quantity: 2,
   },
   {
     id: '321afee6-dd6f-4edf-b2d5-5c7b868de184',
@@ -207,6 +219,7 @@ export const wishlist: WishlistItem[] = [
       'Магазины декора и раритетов',
       'Аукционы винтажных плакатов',
     ],
+    quantity: 3,
   },
   {
     id: '44de27f6-6b67-43d1-8c32-9181a672f97c',
@@ -218,6 +231,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Blasphemous 2', 'Любая другая игра на усмотрение', 'Коллекционное издание'],
     priority: 1,
     whereToBuy: ['Nintendo eShop', 'Amazon / BestBuy', 'Местные игровые магазины'],
+    quantity: 3,
   },
   {
     id: 'a8384ada-d717-4005-9fec-8a57439a8787',
@@ -233,6 +247,7 @@ export const wishlist: WishlistItem[] = [
       'Amazon / eBay / локальные магазины фигурок',
       'Фан-магазины по аниме и играм',
     ],
+    quantity: 3,
   },
   {
     id: '57557e1f-7e98-451c-87e4-e96b5ef718af',
@@ -247,6 +262,7 @@ export const wishlist: WishlistItem[] = [
       'Etsy / eBay',
       'Галереи современного искусства',
     ],
+    quantity: 2,
   },
   {
     id: 'c9dc7f32-41fc-4f54-bcfc-bbf5f953f622',
@@ -269,6 +285,7 @@ export const wishlist: WishlistItem[] = [
       'Etsy / Amazon / магазины аксессуаров для костюмов',
       'Локальные бутики мужской одежды',
     ],
+    quantity: 1,
   },
   {
     id: 'c9dc7f32-41fc-4f54-bcfc-bbf5f953f622.png',
@@ -284,6 +301,7 @@ export const wishlist: WishlistItem[] = [
     ],
     priority: 1,
     whereToBuy: ['Etsy / Amazon / локальные магазины аксессуаров', 'Брендовые бутики костюмов'],
+    quantity: 1,
   },
   {
     id: 'a2e96e3f-ed50-4a3b-a7c2-8b42591f9388',
@@ -302,6 +320,7 @@ export const wishlist: WishlistItem[] = [
       'Etsy / Amazon / локальные магазины одежды',
       'Бутики японской или минималистичной одежды',
     ],
+    quantity: 2,
   },
   {
     id: 'a9e9a2dd-2e7b-4e50-83a3-9cb1fe808715',
@@ -312,6 +331,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Русское издание', 'Английское издание'],
     priority: 2,
     whereToBuy: ['Ozon / Labirint / Amazon', 'Книжные магазины'],
+    quantity: 1,
   },
   {
     id: 'ca38c55f-96b6-4677-bd45-ca7d98d203f2',
@@ -322,6 +342,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Фетровый', 'Кожзам', 'Натуральная кожа'],
     priority: 1,
     whereToBuy: ['Amazon / AliExpress / локальные магазины аксессуаров для рабочего места'],
+    quantity: 1,
   },
   {
     id: '7a7533d4-b860-40d9-896c-e6fedbcf5a8f',
@@ -332,6 +353,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Клипсы', 'Трубки', 'Полный набор для кабель-менеджмента'],
     priority: 1,
     whereToBuy: ['Amazon / AliExpress / магазины электроники'],
+    quantity: 1,
   },
   {
     id: '1f7364dc-b092-4e6e-9859-2ea485fa935b',
@@ -342,6 +364,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Настольная', 'Стойка средняя', 'Профессиональная с регулировкой'],
     priority: 3,
     whereToBuy: ['Amazon / AliExpress / локальные магазины фототехники'],
+    quantity: 1,
   },
   {
     id: 'e01ee0b8-7e69-4df5-8a88-699efd28eb6a',
@@ -357,6 +380,7 @@ export const wishlist: WishlistItem[] = [
     ],
     priority: 1,
     whereToBuy: ['IKEA', 'Amazon', 'локальные магазины посуды / хозяйственные магазины'],
+    quantity: 2,
   },
   {
     id: 'eca71645-30bf-49ff-91c1-16bf234ed95e',
@@ -372,6 +396,7 @@ export const wishlist: WishlistItem[] = [
       style: ['matte', 'minimal'],
     },
     whereToBuy: ['Blizzard Gear Store', 'Etsy (custom)', 'Amazon / eBay'],
+    quantity: 3,
   },
   {
     id: 'd239be3a-32fc-45ea-9450-c1f5b94ccd6f',
@@ -382,6 +407,7 @@ export const wishlist: WishlistItem[] = [
     variants: ['Банковский перевод', 'Подарочная карта', 'Любая сумма'],
     priority: 0,
     whereToBuy: ['Любой способ перевода денег'],
+    quantity: 1,
   },
   {
     id: '33ae564f-e4c3-49b2-8027-21c78256d37c',
@@ -392,5 +418,6 @@ export const wishlist: WishlistItem[] = [
     variants: ['Что угодно'],
     priority: 0,
     whereToBuy: ['Любой магазин или источник'],
+    quantity: 1,
   },
 ];

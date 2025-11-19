@@ -2,7 +2,7 @@ import type { WishlistItem as WishlistItemType } from '../../types';
 import { WishlistItem } from '../WishlistItem/WishlistItem';
 
 import { getImageUrlById } from '../../utils/getImageUrl.ts';
-import { headerImageId } from '../../data';
+import { headerImageId } from '../../../data';
 
 import styles from './WishlistGrid.module.css';
 

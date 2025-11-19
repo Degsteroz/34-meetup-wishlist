@@ -37,4 +37,5 @@ export interface WishlistItem {
   priority: Priority;
   metadata?: WishlistItemMetadata;
   whereToBuy: string[];
+  quantity: number;
 }

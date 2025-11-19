@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 
 import type { Category } from './types';
 
-import { headerImageId, wishlist } from './data';
+import { headerImageId, wishlist } from '../data';
 import { WishlistGrid, SortControls, type SortOption, SortCategoryControls } from './components';
 
 import { getImageUrlById } from './utils/getImageUrl.ts';
