@@ -1,4 +1,4 @@
-import type { WishlistItem } from '../../types';
+import type { WishlistItem } from '../types';
 
 const CLOUDINARY_BASE_URL =
   'https://res.cloudinary.com/dtecpsig5/image/upload/c_scale,w_590/v1763312971/wishlist/';
