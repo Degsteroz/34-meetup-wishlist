@@ -341,7 +341,7 @@ export const wishlist: WishlistItem[] = [
       'Etsy / Amazon / локальные магазины одежды',
       'Бутики японской или минималистичной одежды',
     ],
-    quantity: 2,
+    quantity: 1,
   },
   {
     id: 'a9e9a2dd-2e7b-4e50-83a3-9cb1fe808715',
