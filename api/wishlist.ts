@@ -404,7 +404,7 @@ const wishlist = [
     variants: ['Банковский перевод', 'Подарочная карта', 'Любая сумма'],
     priority: 0,
     whereToBuy: ['Любой способ перевода денег'],
-    quantity: 1,
+    quantity: 99,
   },
   {
     id: '33ae564f-e4c3-49b2-8027-21c78256d37c',
@@ -415,7 +415,7 @@ const wishlist = [
     variants: ['Что угодно'],
     priority: 0,
     whereToBuy: ['Любой магазин или источник'],
-    quantity: 1,
+    quantity: 99,
   },
 ];
 
