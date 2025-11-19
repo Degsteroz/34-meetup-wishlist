@@ -470,6 +470,17 @@ const wishlist = [
     whereToBuy: ['Любой магазин или источник'],
     quantity: 99,
   },
+  {
+    id: 'bf987e71-365b-4e97-a6d5-85e16e1d0e44',
+    name: 'Выступление Артёма Андреева',
+    category: ['misc'],
+    priceRange: { min: 1, max: 9999, currency: 'USD' },
+    description: 'Выступление стендап-комика Артёма Андреева ',
+    variants: ['Короткий корпоративный сет (15–20 мин)'],
+    priority: 2,
+    whereToBuy: ['Прямой контакт через соцсети Артёма'],
+    quantity: 1,
+  },
 ];
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
