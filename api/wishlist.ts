@@ -231,6 +231,27 @@ const wishlist = [
     quantity: 3,
   },
   {
+    id: 'f91906e8-cdd3-4575-8170-10f18f42dee5',
+    name: 'Красная рубашка в клетку "Lumberjack"',
+    category: ['clothing', 'style'],
+    priceRange: { min: 35, max: 90, currency: 'USD' },
+    description:
+      'Плотная фланелевая рубашка в красно-чёрную клетку, классический стиль канадского дровосека. Отлично держит тепло, подходит для работы и повседневной носки.',
+    variants: [
+      'Классический крой',
+      'Slim fit',
+      'Regular fit',
+      'Длинный рукав с манжетами на пуговицах',
+    ],
+    priority: 2,
+    metadata: {
+      style: ['lumberjack', 'casual', 'vintage'],
+      preferredMetals: [],
+    },
+    whereToBuy: ['Patagonia', 'H&M', 'Uniqlo'],
+    quantity: 1,
+  },
+  {
     id: 'a8384ada-d717-4005-9fec-8a57439a8787',
     name: 'Фигурка по Overwatch',
     category: ['collectibles'],
@@ -378,6 +399,38 @@ const wishlist = [
     priority: 1,
     whereToBuy: ['IKEA', 'Amazon', 'локальные магазины посуды / хозяйственные магазины'],
     quantity: 2,
+  },
+  {
+    id: 'e3359aee-0611-478e-a413-4d2501a5ec02',
+    name: 'Ящик Monster Energy без сахара',
+    category: ['misc', 'beverages'],
+    priceRange: { min: 25, max: 35, currency: 'USD' },
+    description: 'Ящик энергетиков Monster Energy без сахара (12 банок по 500 мл).',
+    variants: [
+      'Monster Energy Ultra Sunrise',
+      'Monster Energy Ultra Red',
+      'Monster Energy Ultra Blue',
+      'Monster Energy Ultra Black',
+    ],
+    priority: 1,
+    whereToBuy: ['Maxi', 'Idea', 'Metro', 'Delhaize'],
+    quantity: 1,
+  },
+  {
+    id: '6a99bafe-a2ad-4f4b-9497-6d3eee20cece',
+    name: 'Молотый кофе',
+    category: ['misc', 'beverages'],
+    priceRange: { min: 6, max: 20, currency: 'USD' },
+    description:
+      'Классический молотый кофе — удобный и универсальный для ежедневного потребления дома или в офисе.',
+    variants: ['250 г молотого', '500 г молотого'],
+    priority: 2,
+    whereToBuy: [
+      'Amazon.com',
+      'Локальные супермаркеты и кофейные магазины в Сербии',
+      'Магазины спецкофе',
+    ],
+    quantity: 1,
   },
   {
     id: 'eca71645-30bf-49ff-91c1-16bf234ed95e',

@@ -201,6 +201,11 @@
   color: var(--text-primary);
 }
 
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
 @media (max-width: 768px) {
   .content {
     padding: 16px;

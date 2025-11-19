@@ -14,6 +14,7 @@ export type Category =
   | 'misc'
   | 'workspace'
   | 'clothing'
+  | 'beverages'
   | 'streaming';
 
 export interface PriceRange {

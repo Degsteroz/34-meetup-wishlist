@@ -21,6 +21,7 @@ export function SortCategoryControls({ sortBy, onSortChange }: SortControlsProps
     'books',
     'contribution',
     'misc',
+    'beverages',
     'workspace',
     'clothing',
     'streaming',
