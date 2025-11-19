@@ -426,7 +426,7 @@ export const wishlist: WishlistItem[] = [
     priceRange: { min: 6, max: 20, currency: 'USD' },
     description:
       'Классический молотый кофе — удобный и универсальный для ежедневного потребления дома или в офисе.',
-    variants: ['250 г молотого', '500 г молотого'],
+    variants: ['250г молотого', '500г молотого'],
     priority: 2,
     whereToBuy: [
       'Amazon.com',
