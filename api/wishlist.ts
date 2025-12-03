@@ -83,6 +83,22 @@ const wishlist = [
     quantity: 1,
   },
   {
+    id: '66d1e790-0f66-4631-83e0-0beb4294b546',
+    name: 'Электронная барабанная установка (универсальная)',
+    category: ['electronics', 'music'],
+    priceRange: { min: 350, max: 1800, currency: 'USD' },
+    description:
+      'Электронная барабанная установка — набор электронных падов (снейр, томы, тарелки), бас-пад и модуль/звуковой процессор.',
+    variants: ['Alesis Nitro Mesh Kit', 'Yamaha DTX402 / DTX402K', 'Roland TD-07 / TD-07DMK'],
+    priority: 2,
+    whereToBuy: [
+      'Thomann (Europe)',
+      'MusicStore / MusicStore (DE)',
+      'Местные музыкальные магазины',
+    ],
+    quantity: 1,
+  },
+  {
     id: '554d4520-d6f0-46b6-871b-884c0dd05d40',
     name: 'Современный монитор (универсальный, 24–27")',
     category: ['workspace'],
