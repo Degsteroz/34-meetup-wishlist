@@ -21,21 +21,6 @@ const wishlist = [
     quantity: 1,
   },
   {
-    id: 'f0b350d4-cffe-4ca0-a7de-05388934ba19',
-    name: 'Mac mini M5 (32GB / 1TB)',
-    category: ['electronics'],
-    priceRange: { min: 1000, max: 1900, currency: 'USD' },
-    description: 'Компактная, но мощная настольная машина. Идеальна как вторая станция для работы.',
-    variants: ['Базовая конфигурация', 'Комплект с монитором', 'Комплект с клавиатурой и мышью'],
-    priority: 3,
-    whereToBuy: [
-      'Apple Store / авторизованные реселлеры',
-      'Amazon / BestBuy',
-      'Локальные магазины техники',
-    ],
-    quantity: 1,
-  },
-  {
     id: 'cb3ce338-3ff7-4590-80f4-d33953eadae4',
     name: 'Valve Steam Machine (новое поколение)',
     category: ['gaming'],
@@ -201,7 +186,7 @@ const wishlist = [
   },
   {
     id: '9485f9b9-012c-49d5-875a-bf0b1158bea7',
-    name: 'Винтажный японский бомбер',
+    name: 'Винтажный японский бомбер. Размер М',
     category: ['style', 'clothing'],
     priceRange: { min: 80, max: 350, currency: 'USD' },
     description:
@@ -248,7 +233,7 @@ const wishlist = [
   },
   {
     id: 'f91906e8-cdd3-4575-8170-10f18f42dee5',
-    name: 'Красная рубашка в клетку "Lumberjack"',
+    name: 'Красная рубашка в клетку "Lumberjack". Размер S',
     category: ['clothing', 'style'],
     priceRange: { min: 35, max: 90, currency: 'USD' },
     description:
@@ -387,17 +372,6 @@ const wishlist = [
     variants: ['Клипсы', 'Трубки', 'Полный набор для кабель-менеджмента'],
     priority: 1,
     whereToBuy: ['Amazon / AliExpress / магазины электроники'],
-    quantity: 1,
-  },
-  {
-    id: '1f7364dc-b092-4e6e-9859-2ea485fa935b',
-    name: 'Кольцевая лампа с держателем для смартфона',
-    category: ['streaming'],
-    priceRange: { min: 20, max: 120, currency: 'USD' },
-    description: 'Освещение для стримов и видеозвонков. Полезно, когда света мало.',
-    variants: ['Настольная', 'Стойка средняя', 'Профессиональная с регулировкой'],
-    priority: 3,
-    whereToBuy: ['Amazon / AliExpress / локальные магазины фототехники'],
     quantity: 1,
   },
   {
